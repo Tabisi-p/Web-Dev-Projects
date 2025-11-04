@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 10px;
+    font-family: Arial, sans-serif;
 }
 .offer{
     background-color: #790606;
@@ -190,10 +191,14 @@ body{
     gap: 7px;
     align-items: stretch; 
 }
+.calc-row:hover {
+  background-color: #f3f4f7;
+  box-shadow: 0 4px 10px gray;
+  transform: translateY(-3px); 
+  padding: 20px; 
+}
+
 .calc-col{
-    border: 1px solid #f3f4f7;
-    border-radius: 6px;
-    padding: 7px;
     background-color: #f3f4f7;
     display: flex;
     flex-direction: column;
