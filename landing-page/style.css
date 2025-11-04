@@ -284,3 +284,34 @@ body{
     border-radius: 10px;
     flex-wrap: wrap;
 }
+
+/*Footer*/
+.page-end{
+    background-color: white;
+    color: #2a2828f9;
+}
+
+.footer-container{
+    gap:5px;
+    padding:0px;
+}
+
+.footer-row{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 220px 100px ;
+    gap: 15px;
+    font-size:16px;
+    font-weight: lighter;
+    border-bottom: 1px solid gray;
+}
+#footer-heading{
+    font-weight: bold;
+}
+
+.footer-row-end{
+    text-align:center;
+    font-weight: lighter;
+    color: gray;
+    font-size: 12px;
+}
