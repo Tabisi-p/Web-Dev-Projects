@@ -326,7 +326,7 @@ h2.testimonies{
 
 .testimony-container{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     margin: 10px 10px;
 }
 
@@ -336,6 +336,7 @@ h2.testimonies{
     text-align: left;
     font-weight: lighter;
     background-color: white;
+    padding: 20px 20px;
 }
 
 #testimony-icon{
@@ -376,6 +377,7 @@ h2.testimonies{
 }
 
 @media (max-width:900px){
+
     .navbar-text, 
     .navbar-right{
         display:none;
@@ -391,5 +393,37 @@ h2.testimonies{
     justify-content: space-between;
     align-items: center;
     }
-    
+
+    .offer {
+    flex-direction: column;
+    text-align: center; 
+    }
+
+    .about-offer {
+        font-size: 2rem; 
+    }
+
+    .offer-content p {
+        font-size: 1rem;
+    }
+
+    .offer-image {
+        margin-top: 50px;
+    }
+
+    .offer-image img {
+        width: 80%;
+        max-width: 350px;
+    }
+    footer {
+    font-size: 1rem;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-row{
+        flex-wrap: wrap;
+        padding-bottom: 10rem;
+    }
 }
